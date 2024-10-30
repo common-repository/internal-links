@@ -1,0 +1,2 @@
+jQuery((function(){jQuery(".iljmessage.admin-warning-litespeed").on("click",".notice-dismiss",(function(e){e.preventDefault();var n={action:"ilj_dismiss_admin_warning_litespeed",nonce:ilj_ajax_object.nonce};jQuery.ajax({url:ajaxurl,type:"POST",data:n,statusCode:{500:function(e){jQuery(e.responseJSON.message)}},success:function(e,n,i){}})}))}));
+//# sourceMappingURL=ilj_admin_script.min.js.map

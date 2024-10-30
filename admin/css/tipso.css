@@ -1,0 +1,114 @@
+/**
+ * ILJ Color Palettes
+ */
+/* iljtipso Bubble Styles */
+.iljtipso_bubble, .iljtipso_bubble > .iljtipso_arrow {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.iljtipso_bubble {
+    position: absolute;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 99999999 !important;
+}
+
+.iljtipso_style {
+    cursor: help;
+}
+
+.iljtipso_title {
+    border-radius: 6px 6px 0 0;
+}
+
+.iljtipso_content {
+    word-wrap: break-word;
+    padding: 0.3em 0.5em;
+}
+
+.iljtipso_content a {
+    color: #f49616;
+}
+
+.iljtipso_content hr {
+    margin: 15px 0;
+    border: none;
+    background: #fff;
+    height: 1px;
+}
+
+/* iljtipso Bubble size classes - Similar to Foundation's syntax*/
+.iljtipso_bubble.tiny {
+  font-size: 0.6rem; }
+
+.iljtipso_bubble.small {
+  font-size: 0.8rem; }
+
+.iljtipso_bubble.default {
+  font-size: 1rem; }
+
+.iljtipso_bubble.large {
+  font-size: 1.2rem;
+  width: 100%; }
+
+/* iljtipso Bubble Div */
+.iljtipso_bubble > .iljtipso_arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 8px solid;
+  pointer-events: none; }
+
+.iljtipso_bubble.top > .iljtipso_arrow {
+  border-top-color: #000;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px; }
+
+.iljtipso_bubble.bottom > .iljtipso_arrow {
+  border-bottom-color: #000;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px; }
+
+.iljtipso_bubble.left > .iljtipso_arrow {
+  border-left-color: #000;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  top: 50%;
+  left: 100%;
+  margin-top: -8px; }
+
+.iljtipso_bubble.right > .iljtipso_arrow {
+  border-right-color: #000;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  top: 50%;
+  right: 100%;
+  margin-top: -8px; }
+
+.iljtipso_bubble .top_right_corner,
+.iljtipso_bubble.top_right_corner {
+  border-bottom-left-radius: 0; }
+
+.iljtipso_bubble .bottom_right_corner,
+.iljtipso_bubble.bottom_right_corner {
+  border-top-left-radius: 0; }
+
+.iljtipso_bubble .top_left_corner,
+.iljtipso_bubble.top_left_corner {
+  border-bottom-right-radius: 0; }
+
+.iljtipso_bubble .bottom_left_corner,
+.iljtipso_bubble.bottom_left_corner {
+  border-top-right-radius: 0; }

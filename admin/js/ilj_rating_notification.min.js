@@ -1,0 +1,2 @@
+!function(n){n((function(){n("a.ilj-rating-notification-add").each((function(){n(this).on("click",(function(n){n.preventDefault();var a={action:"ilj_rating_notification_add",days:jQuery(this).data("add"),nonce:ilj_ajax_object.nonce};jQuery(this).closest(".notice").slideUp(),jQuery.ajax({url:ajaxurl,type:"POST",data:a,success:function(n,a,i){}})}))}))}))}(jQuery);
+//# sourceMappingURL=ilj_rating_notification.min.js.map

@@ -1,0 +1,2 @@
+!function(e){var o={width:"",useTitle:!0,delay:100,speed:500,background:"#32373c",color:"#eeeeee",size:"small",position:"left"};e((function(){jQuery(".promo").length&&(jQuery(".promo").find(".close").iljtipso(o),jQuery(".promo").find(".close").on("click",(function(){jQuery(this).closest(".promo").slideUp(),jQuery.ajax({url:ajaxurl,type:"POST",data:{action:"ilj_hide_promo",nonce:ilj_ajax_object.nonce}})})))}))}(jQuery);
+//# sourceMappingURL=ilj_promo.min.js.map
